@@ -1,0 +1,238 @@
+*{
+	box-sizing: border-box;
+
+
+}
+.row{
+	text-align: center;
+	max-width: 1920px;
+	
+	padding: 0 30px;
+	margin:0 auto;
+
+}
+body{
+	;
+	font-family: raleway;
+	
+	
+}
+header{
+	background-image: url(wallp.jpeg);
+	background-size: cover;
+	height: 40vh;
+	width: auto;
+	background-position: center;
+	margin-bottom: 5px;
+	;
+}
+.head-text{
+	color: #fff;
+
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+	text-transform: uppercase;
+	position: absolute;
+	right: 44%;	
+
+}
+.logo img{
+
+	width: 70px;
+	height: 70px;
+	margin-left: 20px;
+	margin-top: 30px;
+	position: fixed;
+	float: left;
+}
+.atext{
+	text-align: center;
+
+	position: absolute;
+	text-transform: uppercase;
+	transform: translate(30%,150%);
+	font-size: 25px;
+	right: auto;
+	left: auto;
+	color: #fff;
+	line-height: 35px;
+}
+
+.about-2{
+	background-image: url(gab.jpg);
+	height: 45vh;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 5px;
+	
+	
+}
+
+.mid-look{
+	height: 50vh;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 5px;
+	max-height: 100%;
+
+}
+.div1{
+	color: #fff;
+	padding: 30px 10px;
+}
+.div1 h1{
+	font-size: 40px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #fff;
+}
+
+.div2{
+	height: 90%;
+	background-color: #fff;
+	padding: 10px;
+	
+	border-radius: 50px;
+
+}
+
+.ender{
+	height: 20vh;
+	background-color: black;
+}
+.fnav{
+	list-style: none;
+
+}
+.fnav li{
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 30px;
+
+
+}
+.fnav li a:link,
+.fnav li a:visited{
+	color: #C8C8C8;
+	transition: color .5s;
+	text-decoration: none;
+}
+.fnav li a:hover,
+.fnav li a:active{
+	color: #fff;
+
+}
+
+.ficon{
+	list-style: none;
+}
+
+.ficon li{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+.ficon li a:link,
+.ficon li a:visited{
+	color: #C8C8C8;
+	
+
+
+}
+
+.fa-facebook{
+	transition: transform 1s;
+}
+.fa-facebook:hover{
+	color: #3b5998;
+	transform: rotate(360deg);
+	
+
+}
+.fa-instagram{
+	transition: transform 1s;
+}
+.fa-instagram:hover{
+	color: #bc2a8d;
+	transform: rotate(360deg);
+	
+
+}
+
+.fa-twitter{
+	transition: transform 1s;
+}
+.fa-twitter:hover{
+	color: #00aced;
+	transform: rotate(360deg);
+	
+
+}
+
+.fmsg{
+	margin-bottom: 10px;
+	color: #C8C8C8;
+	line-height: 25px;
+}
+.nvidia img{
+	margin-top: 20px;
+	height: 70%;
+	width: 90%;
+	transition: transform 0.3s;
+}
+.nvidia img:hover{
+	transform: scale(1.3);
+	
+}
+.ryzen img{
+	height: 60%;
+	width: 60%;
+	transition: transform 0.3s;
+}
+
+.asus img{
+	margin-top: 15px;
+	height: 20%;
+	width: 40%;
+	transition: transform 0.3s;
+}
+.evga img{
+	margin-top: 30px;
+	height: 80%;
+	width: 90%;
+	transition: transform 0.3s;
+
+}
+.ryzen img:hover{
+	transform: scale(1.3);
+	
+}
+.asus img:hover{
+	transform: scale(1.3);
+	
+}
+.evga img:hover{
+	transform: scale(1.3);
+	
+}
+
+.bnames{
+	list-style: disc;
+	text-align: left;
+	font-size: 30px;
+	margin-left: 10%;
+	line-height: 60px;
+
+}
+#preload{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background:rgba(0,0,0,.9)
+	url('ploader.gif')
+	 center;
+	background-repeat: no-repeat;
+	z-index: 999999;
+}
